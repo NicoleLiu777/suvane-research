@@ -120,7 +120,7 @@ components/
 data/
   evidence.ts       Normalized evidence records
 public/
-  og.png            Social preview card
+  og.jpg            Social preview card
 ```
 
 ## Evaluation plan
