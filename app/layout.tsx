@@ -4,6 +4,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: { default: "SUVANÉ Research", template: "%s · SUVANÉ Research" },
   description: "A professional evidence-to-decision workspace for AI-enabled healthy aging.",
+  other: { "codex-preview": "development" },
   openGraph: {
     title: "SUVANÉ Research",
     description: "From fragmented research to traceable product decisions.",
