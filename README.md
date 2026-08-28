@@ -26,7 +26,7 @@ SUVANÉ Research turns a bounded professional question into a structured, tracea
 - Keeps every evidence record linked to its original source
 - Documents the product-discovery, architecture, evaluation, and human-review workflow
 
-The current `v0.1` uses a small, human-curated corpus. The Ask experience demonstrates the response contract before live retrieval-augmented generation is connected.
+The current `v0.2` connects the Ask experience to a deployed FastAPI service backed by a small, human-verified corpus. Retrieval and synthesis are deterministic at this phase; no generative model is used.
 
 ## Product surfaces
 
@@ -140,9 +140,9 @@ The RAG phase will be evaluated on:
 - [x] Searchable evidence library
 - [x] Structured Ask response contract
 - [x] FDE case-study page
-- [ ] Connect the existing RAG prototype
-- [ ] Add mandatory claim-level citations
-- [ ] Add insufficient-evidence refusal
+- [x] Connect the existing RAG prototype
+- [x] Return source-linked citations
+- [x] Add insufficient-evidence refusal
 - [ ] Build a 10–20 question evaluation set
 - [ ] Add human review and audit logging
 - [ ] Publish evaluation results and a two-minute product demo
